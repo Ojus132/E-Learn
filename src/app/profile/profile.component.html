@@ -1,0 +1,11 @@
+<div class="profile-container">
+  <div class="dashboard" *ngIf="currUser else elseBlock">
+    <h1>Hi {{currUser.username}},</h1>
+    <h3>Registered Email: {{currUser.email}}</h3>
+    <h3>Courses Enrolled: {{currUser}}</h3>
+  </div>
+
+  <ng-template #elseBlock>
+    <h1>You are not logged in. Please Login to view your profile</h1>
+  </ng-template>
+</div>

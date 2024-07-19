@@ -1,9 +1,9 @@
 <div class="login-container">
   <div class="login">
-    <form class="login-form">
+    <form class="login-form" #loginForm="ngForm" (ngSubmit)="getLoginFormData(loginForm.value)">
       <img src="./../../assets/logo.png">
-      <input type="text" name="username" placeholder="Username / Email">
-      <input type="password" name="password" placeholder="Password">
+      <input ngModel type="text" name="username" placeholder="Username / Email">
+      <input ngModel type="password" name="password" placeholder="Password">
       <button type="submit">Login</button>
       <span class="regText">Don't have an account? <a routerLink="/register">Register</a></span>
     </form>

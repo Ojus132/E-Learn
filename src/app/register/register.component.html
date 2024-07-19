@@ -1,10 +1,10 @@
 <div class="register-container">
   <div class="register">
-    <form class="register-form">
+    <form class="register-form" #usersForm="ngForm" (ngSubmit)="getUserFormData(usersForm.value)">
       <img src="./../../assets/logo.png">
-      <input type="text" name="username" placeholder="Username">
-      <input type="email" name="email" placeholder="Email">
-      <input type="password" name="password" placeholder="Password">
+      <input ngModel type="text" name="username" placeholder="Username">
+      <input ngModel type="email" name="email" placeholder="Email">
+      <input ngModel type="password" name="password" placeholder="Password">
       <button type="submit">Register</button>
       <span class="regText">Already have an account? <a routerLink="/login">Login</a></span>
     </form>
