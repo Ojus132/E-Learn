@@ -13,6 +13,9 @@ import { RegisterComponent } from './register/register.component';
 
 import { FormsModule } from '@angular/forms';
 import { ProfileComponent } from './profile/profile.component';
+import { CoursesComponent } from './courses/courses.component';
+import { CourseElementComponent } from './course-element/course-element.component';
+import { CourseUIComponent } from './course-ui/course-ui.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { ProfileComponent } from './profile/profile.component';
     LoginComponent,
     AboutComponent,
     RegisterComponent,
-    ProfileComponent
+    ProfileComponent,
+    CoursesComponent,
+    CourseElementComponent,
+    CourseUIComponent
   ],
   imports: [
     BrowserModule,

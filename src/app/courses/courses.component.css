@@ -1,0 +1,14 @@
+.courses-container{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.courses{
+  width: 80vw;
+}
+
+.all-courses{
+  display: flex;
+  margin: 40px 0px;
+}

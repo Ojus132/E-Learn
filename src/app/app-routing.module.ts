@@ -6,6 +6,8 @@ import { HeroComponent } from './hero/hero.component';
 import { AboutComponent } from './about/about.component';
 import { RegisterComponent } from './register/register.component';
 import { ProfileComponent } from './profile/profile.component';
+import { CoursesComponent } from './courses/courses.component';
+import { CourseUIComponent } from './course-ui/course-ui.component';
 
 const routes: Routes = [
   {
@@ -27,6 +29,14 @@ const routes: Routes = [
   {
     path:'profile',
     component: ProfileComponent
+  },
+  {
+    path:'courses',
+    component: CoursesComponent
+  },
+  {
+    path:'courseUI',
+    component: CourseUIComponent
   }
 ];
 

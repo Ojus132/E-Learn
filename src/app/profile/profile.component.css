@@ -4,4 +4,10 @@
   justify-content: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
+  flex-direction: column;
+}
+
+.cross-img{
+  width: 15%;
+  margin: 20px;
 }

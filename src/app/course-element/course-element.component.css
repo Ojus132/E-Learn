@@ -1,0 +1,35 @@
+.main{
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  background-color: #1E3322;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: transform 0.3s;
+}
+
+.main img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.main p{
+  color: white;
+}
+
+.joinBtn{
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #FD661F;
+  color: white;
+}
+.joinBtn:hover{
+  background-color: #ff8d58;
+}
+
+.main:hover{
+  transform: scale(1.07);
+}

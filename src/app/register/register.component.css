@@ -53,3 +53,7 @@
 	text-decoration: none;
 	color: blue;
 }
+
+.register-form button:hover{
+	background-color: #ff8d58;
+}
