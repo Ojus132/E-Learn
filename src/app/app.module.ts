@@ -9,6 +9,7 @@ import { MainComponent } from './main/main.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { VideoSectionComponent } from './video-section/video-section.component';
 import { DiscussionForumComponent } from './discussion-forum/discussion-forum.component';
+import { CourseCatalogueComponent } from './course-catalogue/course-catalogue.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DiscussionForumComponent } from './discussion-forum/discussion-forum.co
     SideNavComponent,
     MainComponent,
     VideoSectionComponent,
-    DiscussionForumComponent
+    DiscussionForumComponent,
+    CourseCatalogueComponent
   ],
   imports: [
     BrowserModule,

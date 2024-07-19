@@ -4,7 +4,7 @@
     <div *ngFor="let week of weeks; let i = index">
         <h3>Week {{ i + 1 }}</h3>
         <ul>
-          <li *ngFor="let item of week.items">{{ item }}</li>
+          <li *ngFor="let item of week.items"><a href="#">{{ item }}</a></li>
         </ul>
       </div>
     </div>
