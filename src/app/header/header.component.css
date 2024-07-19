@@ -1,0 +1,41 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 15vh;
+  background-color: #eeeee4;
+  position: sticky;
+}
+
+.logo{
+  height: 40%;
+  margin-left: 20px;
+}
+
+.title{
+  margin: 20px;
+  font-family: "Poppins", sans-serif; 
+}
+
+.title1{
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a{
+  text-decoration: none ;
+  color: black;
+  padding: 18px;
+  font-size: 125%;
+}
+
+.loginBtn {
+  text-decoration: none ;
+  position: absolute;
+  right: 20px;
+  padding: 18px;
+  font-size: 125%;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}

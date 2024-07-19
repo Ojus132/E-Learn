@@ -1,0 +1,140 @@
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center ;
+  margin-top: 20px;
+}
+.hero{
+  background-color: #3F6745;
+  height: 80vh;
+  width: 80vw;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+}
+
+.text-box{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.image-box{
+  width: 50%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-heading{
+  color: white;
+  font-size: 65px ;
+  font-family: "Margarine", sans-serif;
+  margin: 20px;
+}
+
+.sub-heading{
+  color: white;
+  margin: 20px;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-img{
+  height: 100%;
+  bottom: 0;
+}
+
+
+.instructor-apply{
+  width: 100vw;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.txtdiv{
+  width: 40vw;
+}
+
+.btndiv{
+  position: relative;
+  width: 40vw;
+}
+
+.applyBtn{
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  position: absolute;
+  right: 10px;
+}
+
+
+
+
+.process-container{
+  width: 100vw;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 60px;
+}
+
+.process{
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.process h1{
+  font-size: 45px;
+  width: 40%;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.process img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+.lectures-container{
+  width: 100vw;
+  margin: 100px 0px 0px 0px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.lectures-container img{
+  border-radius: 15px;
+  width: 60vw;
+}
+
+.lectures-container h1{
+  font-size: 45px;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 600;
+}

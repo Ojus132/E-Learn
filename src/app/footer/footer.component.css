@@ -1,0 +1,15 @@
+.footer-container{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.footer{
+  width: 80vw;
+  text-align: center;
+  padding: 20px;
+}
+.copyright{
+  margin-top: 20px;
+}
