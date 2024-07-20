@@ -85,3 +85,10 @@
     }
   }
 }
+
+.top-section{
+  float: right;
+}
+.sidenavDiv{
+  float: left;
+}

@@ -1,0 +1,15 @@
+<div class="nav-items">
+  <h1> Course Name </h1>
+  <div class="nav-item">
+    <div *ngFor="let week of weeks; let i = index">
+      <h3>Week {{ i + 1 }}</h3>
+      <ul>
+        <li *ngFor="let item of week.items">{{ item }}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="nav-item">
+
+    <span>Help</span>
+  </div>
+</div>
