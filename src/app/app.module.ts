@@ -16,6 +16,9 @@ import { ProfileComponent } from './profile/profile.component';
 import { CoursesComponent } from './courses/courses.component';
 import { CourseElementComponent } from './course-element/course-element.component';
 import { CourseUIComponent } from './course-ui/course-ui.component';
+import { SideNavComponent } from './side-nav/side-nav.component';
+import { VideoSectionComponent } from './video-section/video-section.component';
+import { DiscussionForumComponent } from './discussion-forum/discussion-forum.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,10 @@ import { CourseUIComponent } from './course-ui/course-ui.component';
     ProfileComponent,
     CoursesComponent,
     CourseElementComponent,
-    CourseUIComponent
+    CourseUIComponent,
+    SideNavComponent,
+    VideoSectionComponent,
+    DiscussionForumComponent
   ],
   imports: [
     BrowserModule,

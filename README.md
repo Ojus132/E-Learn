@@ -1,27 +1,15 @@
 # OnlineLearningPlatformFrontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
+## NOTE Please folllow these steps to run the website
 
-## Development server
+1. Setup the database from the sql scripts
+2. Clone the API from https://github.com/Hp9642/Elearn, change the connection string according to your database server.
+3. Clone this repository run `npm i` and then `ng serve` to run the frontend.
+4. API integration has been done but CORS is not enabled, so to run that extra steps need to be followed as shown below:
+   -You can refer to this answer on stackoverflow https://stackoverflow.com/questions/56328474/origin-http-localhost4200-has-been-blocked-by-cors-policy-in-angular7/63589723#63589723 . If it doesnt work watch the next step.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Go to wherever chrome is installed, For ex: C:\Program Files\Google\Chrome\Application , Open windows powershell here.
+- In the shell type `.\chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security` , it will open chrome window without security.
+- In this chrome window, open `localhost:4200`.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Step 4 shall make all the user related api services run (like logging in / registering users / profile dashboard)

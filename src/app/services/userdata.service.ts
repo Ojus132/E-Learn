@@ -13,7 +13,7 @@ export class UserdataService {
     return this.http.get(this.url+'/users');
   };
   saveUsers(data:any){
-    return this.http.post(this.url, data);
+    return this.http.post(this.url+'/register', data);
   };
 
   setCurrUser(data:any){
